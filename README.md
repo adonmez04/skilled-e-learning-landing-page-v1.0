@@ -10,9 +10,9 @@ Welcome to my solution page. I hope you'll find some good implemantions for this
 
 ## Links
 
-- [My Live Site](My-live-site-in-github.io)
+- [My Live Site](https://adonmez04.github.io/skilled-e-learning-landing-page-v1.0/)
 
-- [My Solution Page](My-Project-Page-in-frontendmentor.io)
+- [My Solution Page](https://www.frontendmentor.io/solutions/skilledelearninglandingpagev10-dpbOsLB7fW)
 
 - [The Challenge Page](https://www.frontendmentor.io/challenges/skilled-elearning-landing-page-S1ObDrZ8q)
 

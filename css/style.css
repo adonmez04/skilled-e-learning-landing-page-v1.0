@@ -1,0 +1,333 @@
+/* The Mobile First Solution */
+/* Under the 500px */
+
+/***********************/
+/* Global Styles */
+/***********************/
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  /* Typography */
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #83869a;
+
+  /* To center the content */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+.container {
+  width: 91.46%;
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+/***********************/
+/* Components Styles */
+/***********************/
+
+main {
+  /* background-color: #ddd; */
+}
+
+.elearning-landing-page {
+  /* The Box Model */
+  padding: 16px 0 0px 0;
+
+  /* background-color: white; */
+}
+
+/* The header area */
+/********************/
+
+.header {
+  /* empty */
+}
+
+.nav {
+  /* empty */
+}
+
+.nav__menu {
+  /* The Flexbox */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  /* The Box Model */
+  margin-bottom: 38px;
+}
+
+.nav__menu-item {
+  list-style-type: none;
+}
+
+.nav__menu-link {
+  /* Typography */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 35px;
+  color: #13183f;
+  text-decoration: none;
+}
+
+.nav__menu-item {
+  /* empty */
+}
+
+.btn {
+  /* Typography */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  text-decoration: none;
+  color: #ffffff;
+
+  /* Display */
+  display: inline-block;
+
+  /* To center the content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn--dark {
+  /* Button */
+  width: 140px;
+  height: 48px;
+  border-radius: 28px;
+  background: #13183f;
+}
+
+/* The hero area */
+/********************/
+
+.hero {
+  /* empty */
+}
+
+.hero__content-area {
+  /* The Box Model */
+  margin-bottom: 46px;
+}
+
+.hero__title {
+  /* Typography */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 50px;
+  color: #13183f;
+
+  /* The Box Model */
+  margin-bottom: 26px;
+}
+
+.hero__description {
+  /* Typography */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #83869a;
+
+  /* The Box Model */
+  margin-bottom: 24px;
+}
+
+.btn {
+  /* empty */
+}
+
+.btn--pink {
+  /* Button */
+  width: 167px;
+  height: 56px;
+  border-radius: 31.5px;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+}
+
+.hero__img-area {
+  /* The Box Model */
+  margin-bottom: 58px;
+  width: 100%;
+}
+
+.hero__img {
+  max-width: 100%;
+  padding: 0 8px;
+  /* transform: scale(1.1); */
+}
+
+/* The cards area - iteration  */
+/********************/
+
+.section-bottom {
+  background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+}
+
+.cards-area {
+  /* The Flexbox */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 40px;
+
+  /* The Box Model */
+  padding-bottom: 80px;
+}
+
+.card__color {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.card__color-title {
+  /* Typography */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+
+  /* Background */
+  /* width: 100%px;
+  height: 120px; */
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  border-radius: 10px;
+  padding: 24px 29px 32px 28px;
+
+  /*? Check out the text positioning  */
+}
+
+.card {
+  /* The Shadow */
+  background: #ffffff;
+  box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+  border-radius: 10px;
+
+  /* The Box Model */
+  padding-bottom: 30px;
+}
+
+.card-container {
+  /* The Box Model */
+  width: 83.67%;
+  margin: 0 auto;
+}
+
+.card__icon {
+  transform: translate(0, -42%);
+
+  /* The Box Model */
+  margin-bottom: -6px;
+}
+
+.card__title {
+  /* Typography */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  color: #13183f;
+
+  /* The Box Model */
+  margin-bottom: 15px;
+}
+
+.card__description {
+  /* Typography */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #83869a;
+
+  /* The Box Model */
+  margin-bottom: 25px;
+}
+
+.card__link {
+  /* Typography */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #f74780;
+  text-decoration: none;
+}
+
+/* The footer area */
+/********************/
+
+.footer {
+  padding: 36px 0;
+  background: #13183f;
+}
+
+.footer__menu {
+  list-style-type: none;
+
+  /* The Flexbox */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__menu-item {
+  /* emtpy */
+}
+
+.footer__menu-link {
+  /* Typography */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 35px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer__menu-item {
+  /* empty */
+}
+
+.btn--dark-color {
+  /* Button */
+  width: 140px;
+  height: 48px;
+  border-radius: 28px;
+  background: linear-gradient(180deg, #4851ff 0%, #f02aa6 100%);
+}
