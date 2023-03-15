@@ -116,8 +116,7 @@ main {
 
 .btn--dark {
   /* Button */
-  width: 140px;
-  height: 48px;
+  padding: 9px 24px 11px;
   border-radius: 28px;
   background: #13183f;
 }
